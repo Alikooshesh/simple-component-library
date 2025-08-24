@@ -15,7 +15,7 @@ const meta: Meta<typeof TextField> = {
     docs: {
       description: {
         component: `
-A text input field with built-in **loading**, **disabled**, **active**, **hover**, 
+A text input field with built-in **disabled**, **active**, **hover**, 
 and **error** states.  
 Use this component for consistent form styling with Tailwind.
         `,
