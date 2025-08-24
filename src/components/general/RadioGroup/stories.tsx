@@ -4,11 +4,12 @@ import RadioItem from "./RadioItem";
 import  RadioGroup  from ".";
 
 const meta: Meta<typeof RadioGroup> = {
-  title: "Components/Form/RadioGroup",
+  title: "Components/General/Form/RadioGroup",
   component: RadioGroup,
   argTypes: {
     disabled: { control: "boolean" },
   },
+  tags: ["autodocs"],
 };
 
 export default meta;

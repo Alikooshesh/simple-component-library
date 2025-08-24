@@ -3,7 +3,7 @@ import Radio from ".";
 import { useState } from "react";
 
 const meta: Meta<typeof Radio> = {
-  title: "Components/Form/Radio",
+  title: "Components/General/Form/Radio",
   component: Radio,
   argTypes: {
     label: { control: "text" },
@@ -11,6 +11,7 @@ const meta: Meta<typeof Radio> = {
     checked: { control: "boolean" },
     onChange: { action: "changed" },
   },
+  tags: ["autodocs"],
 };
 
 export default meta;

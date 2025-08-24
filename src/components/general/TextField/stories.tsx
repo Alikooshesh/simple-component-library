@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import TextField from ".";
 
 const meta: Meta<typeof TextField> = {
-  title: "Components/general/TextField",
+  title: "Components/General/Form/TextField",
   component: TextField,
   argTypes: {
     loading: { control: "boolean" },
@@ -22,6 +22,7 @@ Use this component for consistent form styling with Tailwind.
       },
     },
   },
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -31,7 +32,7 @@ type Story = StoryObj<typeof TextField>;
 export const Default: Story = {
   args: {
     placeholder: "Enter text...",
-    label: "email :"
+    label: "email :",
   },
   parameters: {
     docs: {

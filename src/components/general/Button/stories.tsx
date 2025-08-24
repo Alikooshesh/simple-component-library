@@ -18,6 +18,7 @@ const meta: Meta<typeof Button> = {
     href: { control: "text" },
     children: { control: "text" },
   },
+  tags: ["autodocs"],
 };
 
 export default meta;

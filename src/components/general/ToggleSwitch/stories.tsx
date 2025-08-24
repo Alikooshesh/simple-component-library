@@ -3,7 +3,7 @@ import ToggleSwitch from ".";
 import { useState } from "react";
 
 const meta: Meta<typeof ToggleSwitch> = {
-  title: "Components/general/ToggleSwitch",
+  title: "Components/General/Form/ToggleSwitch",
   component: ToggleSwitch,
   argTypes: {
     label: { control: "text" },
@@ -21,6 +21,7 @@ Supports optional **label** for accessibility.
       },
     },
   },
+  tags: ["autodocs"],
 };
 
 export default meta;
