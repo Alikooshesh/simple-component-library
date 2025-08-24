@@ -1,7 +1,7 @@
 const config = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // adjust paths if needed
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -19,7 +19,7 @@ const config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
 
 export default config;
