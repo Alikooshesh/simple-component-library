@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import TextField from ".";
 
 const meta: Meta<typeof TextField> = {
-  title: "Components/TextField",
+  title: "Components/general/TextField",
   component: TextField,
   argTypes: {
     loading: { control: "boolean" },
